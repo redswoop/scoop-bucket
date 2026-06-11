@@ -13,7 +13,10 @@ scoop install baduhan
 ```
 
 A fast, native Windows terminal with iTerm2-style tabs, splits, and embedded
-browser panes. Baduhan (պատուհան) is Armenian for window.
+browser panes. Baduhan (պատուհան) is Armenian for window. The manifest is
+updated automatically by the
+[baduhan release workflow](https://github.com/redswoop/baduhan); don't edit it
+by hand.
 
 Upstream project: <https://github.com/redswoop/baduhan>
 
