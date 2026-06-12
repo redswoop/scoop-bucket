@@ -1,20 +1,25 @@
 {
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A fast, native Windows terminal with iTerm2-style tabs, splits, and embedded browser panes",
   "homepage": "https://github.com/redswoop/baduhan",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/redswoop/baduhan/releases/download/v0.1.1/baduhan-v0.1.1-windows-x64.zip",
-      "hash": "a73ed671f82fe3e5d11da152d696dd85ef63f4244cca0472e9258cd452bea74f"
+      "url": "https://github.com/redswoop/baduhan/releases/download/v0.2.0/baduhan-v0.2.0-windows-x64.zip",
+      "hash": "7cca4897db07e47066c968dcd734f6bf2d659011755d766a11b945a1793e0fc1"
     },
     "arm64": {
-      "url": "https://github.com/redswoop/baduhan/releases/download/v0.1.1/baduhan-v0.1.1-windows-arm64.zip",
-      "hash": "d550be0913a153666fc47dc0c9f455a5f0bb476a2cc3dd3a40c9b655f8e3f34d"
+      "url": "https://github.com/redswoop/baduhan/releases/download/v0.2.0/baduhan-v0.2.0-windows-arm64.zip",
+      "hash": "999d54c97e1d9a60371136bc2aeeace621e6a3ae44cccf072aaad1f868d0d34a"
     }
   },
   "bin": "baduhan.exe",
-  "shortcuts": [["baduhan.exe", "baduhan"]],
+  "shortcuts": [
+    [
+      "baduhan.exe",
+      "baduhan"
+    ]
+  ],
   "checkver": "github",
   "autoupdate": {
     "architecture": {
