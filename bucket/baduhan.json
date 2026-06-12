@@ -1,32 +1,32 @@
 {
-    "version": "0.1.0",
-    "description": "A fast, native Windows terminal with iTerm2-style tabs, splits, and embedded browser panes",
-    "homepage": "https://github.com/redswoop/baduhan",
-    "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/redswoop/baduhan/releases/download/v0.1.0/baduhan-v0.1.0-windows-x64.zip",
-            "hash": "d7b69d073b82df8224db2e8f0601f9ec8b4c22fd32e2c6063b394af185c2c799"
-        },
-        "arm64": {
-            "url": "https://github.com/redswoop/baduhan/releases/download/v0.1.0/baduhan-v0.1.0-windows-arm64.zip",
-            "hash": "d8f7c4b932724089d6cb735d2a32cb6b5e7969062a349ab2356a78892f974bf6"
-        }
+  "version": "0.1.1",
+  "description": "A fast, native Windows terminal with iTerm2-style tabs, splits, and embedded browser panes",
+  "homepage": "https://github.com/redswoop/baduhan",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/redswoop/baduhan/releases/download/v0.1.1/baduhan-v0.1.1-windows-x64.zip",
+      "hash": "a73ed671f82fe3e5d11da152d696dd85ef63f4244cca0472e9258cd452bea74f"
     },
-    "bin": "baduhan.exe",
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/redswoop/baduhan/releases/download/v$version/baduhan-v$version-windows-x64.zip"
-            },
-            "arm64": {
-                "url": "https://github.com/redswoop/baduhan/releases/download/v$version/baduhan-v$version-windows-arm64.zip"
-            }
-        },
-        "hash": {
-            "url": "$url.sha256",
-            "regex": "^([a-fA-F0-9]{64})"
-        }
+    "arm64": {
+      "url": "https://github.com/redswoop/baduhan/releases/download/v0.1.1/baduhan-v0.1.1-windows-arm64.zip",
+      "hash": "d550be0913a153666fc47dc0c9f455a5f0bb476a2cc3dd3a40c9b655f8e3f34d"
     }
+  },
+  "bin": "baduhan.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/redswoop/baduhan/releases/download/v$version/baduhan-v$version-windows-x64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/redswoop/baduhan/releases/download/v$version/baduhan-v$version-windows-arm64.zip"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256",
+      "regex": "^([a-fA-F0-9]{64})"
+    }
+  }
 }
