@@ -14,6 +14,7 @@
     }
   },
   "bin": "baduhan.exe",
+  "shortcuts": [["baduhan.exe", "baduhan"]],
   "checkver": "github",
   "autoupdate": {
     "architecture": {
